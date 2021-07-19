@@ -42,7 +42,27 @@
 
                 <br>
 
-				<div id="output">
+				<div class="output" style="height: 10px;">
+
+				<div id="output" class="output" style="visibility: hidden;">
+					<h4 id="number1"></h4>
+					
+					<h4> X </h4>
+					
+					<h4 id="number2"></h4>
+
+					<br>
+
+					<br>
+
+					<input id="Type_Ans" type="text">
+					
+					<br>
+
+					<br>
+					
+					<button> Check </button>
+				</div>	
 
 				</div>
 
@@ -54,7 +74,7 @@
 
 				<br>
 
-				<input type="text" class="word" placeholder="Number 1">
+				<input type="text" class="word" id="word1" placeholder="Number 1">
 
 				<br>
 
@@ -64,7 +84,7 @@
 
 				<br>
 
-				<input type="text" class="word" placeholder="Number 2">
+				<input type="text" class="word" id="word2" placeholder="Number 2">
 
 				<br>
 
@@ -72,7 +92,7 @@
 
 				<br>
 
-				<button style="width: 30%;" class="btn btn-primary">Send</button>
+				<button style="width: 30%;" class="btn btn-primary" onclick="send()">Send</button>
 		        
 		        <br>
 
